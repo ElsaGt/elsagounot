@@ -1,7 +1,7 @@
 #home {
   background-color: white;
   color: $gray;
-  height: 100vh;
+  min-height: calc(100vh -40px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,7 +34,7 @@
   }
   p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
   }
   h4 {
     font-weight: 200;
@@ -46,6 +46,7 @@ ul {
   list-style: none;
 }
 .skills-list {
+  padding: 10px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
