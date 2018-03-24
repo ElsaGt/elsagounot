@@ -1,8 +1,31 @@
-.sidebar-content {
+.sidebar {
   position: fixed;
-  width: 200px;
+  width: 170px;
   left: 0;
   top: 0;
   bottom: 0;
   background-color: $green;
+  color: $light-gray;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.links-list {
+  display: flex;
+  justify-content: space-around;
+  a {
+    text-decoration: none;
+    color: $light-gray;
+    font-size: 20px;
+    &:hover {
+      color: $middle-gray;
+    }
+  }
+}
+
+.text-cursive {
+  font-family: 'Tangerine';
+  font-size: 24px;
+  font-weight: lighter;
 }
