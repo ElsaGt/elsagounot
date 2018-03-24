@@ -20,8 +20,9 @@
 }
 
 .text-content {
-  margin-bottom: 10px;
-  max-width: 800px;
+  // margin-bottom: 10px;
+  max-width: 600px;
+  margin: 0 auto;
   h1 {
     font-weight: 400;
     font-size: 40px;
@@ -45,43 +46,74 @@
 ul {
   list-style: none;
 }
-.skills-list {
-  padding: 10px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+@media(max-width: 540px) {
+  #home {
+    background-color: white;
+    margin: 0 auto;
+  }
+  .skills-list {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .html-skill, .css-skill, .indesign-skill, .photoshop-skill {
+    width: 290px;
+  }
+  .bootstrap-skill, .wordpress-skill {
+    width: 270px;
+  }
+  .javascript-skill, .jquery-skill {
+    width: 230px;
+  }
+  .ruby-skill, .git-skill {
+    width: 250px;
+  }
+  .sql-skill {
+    width: 200px;
+  }
+  .vertical-text{
+    height:20px;
+    text-align: left;
+    background-color: $light-gray;
+    border-radius: 30px;
+    padding: 10px 10px 30px 10px;
+    display: block;
+    justify-content: flex-start ;
+    margin: 10px;
+  }
 }
-
-.html-skill, .css-skill, .indesign-skill, .photoshop-skill {
-  height: 290px;
-}
-
-.bootstrap-skill, .wordpress-skill {
-  height: 270px;
-}
-
-.javascript-skill, .jquery-skill {
-  height: 230px;
-}
-
-.ruby-skill, .git-skill {
-  height: 250px;
-}
-
-.sql-skill {
-  height: 200px;
-}
-
-.vertical-text{
-  line-height: 1.2;
-  width:20px;
-  word-wrap: break-word;
-  white-space:pre-wrap;
-  background-color: $light-gray;
-  border-radius: 30px;
-  padding: 10px 30px 10px 20px;
-  display: block;
-  justify-content: center;
-  margin: 10px;
+@media(min-width: 720px) {
+  .skills-list {
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .html-skill, .css-skill, .indesign-skill, .photoshop-skill {
+    height: 290px;
+  }
+  .bootstrap-skill, .wordpress-skill {
+    height: 270px;
+  }
+  .javascript-skill, .jquery-skill {
+    height: 230px;
+  }
+  .ruby-skill, .git-skill {
+    height: 250px;
+  }
+  .sql-skill {
+    height: 200px;
+  }
+  .vertical-text{
+    line-height: 1.2;
+    width:20px;
+    word-wrap: break-word;
+    white-space:pre-wrap;
+    background-color: $light-gray;
+    border-radius: 30px;
+    padding: 10px 30px 10px 20px;
+    display: block;
+    justify-content: center;
+    margin: 10px;
+  }
 }
