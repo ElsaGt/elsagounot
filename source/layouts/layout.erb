@@ -7,6 +7,23 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
+
+  <!-- Facebook Open Graph data -->
+  <meta property="og:title" content="Elsa Gounot | Développeuse front-end" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="www.elsagounot.com" />
+<!--   <meta property="og:image" content="<%#= cover.png %>" /> -->
+  <meta property="og:description" content="Développeuse front-end disponible pour missions freelance." />
+  <meta property="og:site_name" content="Elsa Gounot | Développeuse front-end" />
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image">
+<!--   <meta name="twitter:site" content="<%#= DEFAULT_META["twitter_account"] %>"> -->
+  <meta name="twitter:title" content="Elsa Gounot | Développeuse front-end">
+  <meta name="twitter:description" content="Développeuse front-end disponible pour missions freelance.">
+<!--   <meta name="twitter:creator" content="<%#= DEFAULT_META["twitter_account"] %>"> -->
+<!--   <meta name="twitter:image:src" content="cover.png"> -->
+
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
