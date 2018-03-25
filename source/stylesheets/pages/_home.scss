@@ -1,13 +1,15 @@
+
+
 #home {
   background-color: white;
   color: $gray;
-  min-height: calc(100vh -40px);
-  min-width: 100vw;
+  min-height: calc(100vh -30px);
+  width: calc(100vw -170px);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-left: 100px;
+  padding-left: 100px;
   p {
     margin-top: 1.5em;
   }
