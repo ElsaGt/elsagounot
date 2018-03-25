@@ -3,13 +3,12 @@
 #home {
   background-color: white;
   color: $gray;
-  min-height: calc(100vh -30px);
-  width: calc(100vw -170px);
+  min-height: calc(100vh -30px) !important;
+  width: calc(100vw -170px) !important;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-left: 100px;
   p {
     margin-top: 1.5em;
   }
@@ -85,6 +84,9 @@ ul {
   }
 }
 @media(min-width: 541px) {
+  #home {
+    padding-left: 170px;
+  }
   .skills-list {
     padding: 10px;
     margin-top: 20px;
