@@ -22,8 +22,6 @@
 }
 
 .text-content {
-  // margin-bottom: 10px;
-  max-width: 660px;
   margin: 0 auto;
   h1 {
     font-weight: 400;
@@ -52,6 +50,9 @@ ul {
   #home {
     background-color: white;
     margin: 0 auto;
+  }
+  .text-content {
+    max-width: 500px;
   }
   .skills-list {
     padding: 10px;
@@ -86,6 +87,9 @@ ul {
 @media(min-width: 541px) {
   #home {
     padding-left: 170px;
+  }
+  .text-content {
+    max-width: 660px;
   }
   .skills-list {
     padding: 10px;
