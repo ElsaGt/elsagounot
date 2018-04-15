@@ -61,17 +61,17 @@ ul {
   .html-skill, .css-skill, .indesign-skill, .photoshop-skill {
     width: 290px;
   }
-  .bootstrap-skill, .wordpress-skill, .javascript-skill {
+  .bootstrap-skill, .jquery-skill {
     width: 270px;
   }
-  .jquery-skill, .ruby-skill {
-    width: 230px;
-  }
-  .git-skill {
+  .ruby-skill, .git-skill, .javascript-skill, .wordpress-skill {
     width: 250px;
   }
-  .sql-skill, .react-skill {
-    width: 200px;
+  .sql-skill {
+    width: 230px;
+  }
+  .react-skill {
+    width: 210px;
   }
   .vertical-text{
     height:20px;
@@ -101,17 +101,19 @@ ul {
   .html-skill, .css-skill, .indesign-skill, .photoshop-skill {
     height: 290px;
   }
-  .bootstrap-skill, .wordpress-skill, .javascript-skill {
+  .bootstrap-skill, .jquery-skill {
     height: 270px;
   }
-  .jquery-skill, .ruby-skill {
-    height: 230px;
-  }
-  .ruby-skill, .git-skill {
+  .ruby-skill, .git-skill, .javascript-skill, .wordpress-skill {
     height: 250px;
   }
-  .sql-skill, .react-skill {
-    height: 200px;
+
+  .sql-skill {
+    height: 230px;
+  }
+
+  .react-skill {
+    height: 210px;
   }
   .vertical-text{
     line-height: 1.2;
