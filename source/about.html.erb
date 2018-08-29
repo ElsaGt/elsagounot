@@ -1,3 +1,22 @@
-<!-- <div class="about">
+---
+title: Elsa Gounot | Développeuse web
+---
+
+<div class="about">
+  <div class="container">
+    <div class="row">
+      <% data.websites.each do |website| %>
+      <% image = website.img %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'image' %>);">
+          <div class="card-description">
+            <h2><%= website.name %></h2>
+            <p><%= website.tags %></p>
+          </div>
+          <%= link_to "", "website.link", class: "card-link" %>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
 </div>
- -->

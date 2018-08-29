@@ -1,0 +1,15 @@
+instant-needles:
+  name: "Instant Needles"
+  link: "https://instantneedles.wordpress.com/"
+  img: "instant-needles-img.png"
+  tags: "Wordpress, HTML, CSS, Rédaction web, Photoshop"
+comics-generator:
+  name: "Comic Strip Generator"
+  link: "https://comics-generator.herokuapp.com/"
+  img: "comics-generator-img.png"
+  tags: "Javascript, jQuery, HTML, CSS, Ruby on rails, Heroku"
+blended-fish:
+  name: "Blended Fish"
+  link: "http://blended-fish.herokuapp.com/"
+  img: "blended-fish-img.png"
+  tags: "Javascript, jQuery, HTML, CSS, Ruby on rails, Photoshop, Heroku"
