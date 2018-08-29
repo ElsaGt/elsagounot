@@ -21,6 +21,23 @@
   }
 }
 
+.green-btn {
+  background-color: $green;
+  padding: 10px 20px;
+  width: 180px;
+  margin: auto;
+  border-radius: 3px;
+  &:hover {
+    box-shadow: 1px 2px 4px $middle-gray;
+    cursor: pointer;
+  }
+}
+
+.btn-link {
+    color: white !important;
+    text-decoration: none;
+  }
+
 .text-content {
   margin: 0 auto;
   h1 {
@@ -56,23 +73,22 @@ ul {
   }
   .skills-list {
     padding: 10px;
-    margin-top: 20px;
+    // margin-top: 20px;
   }
-  .html-skill, .css-skill, .indesign-skill, .photoshop-skill {
+  .html-skill, .css-skill, .indesign-skill {
     width: 290px;
   }
-  .bootstrap-skill, .jquery-skill {
+  .bootstrap-skill, .jquery-skill, .git-skill, .photoshop-skill {
     width: 270px;
   }
-  .ruby-skill, .git-skill, .javascript-skill, .wordpress-skill {
+  .javascript-skill, .wordpress-skill, .webdesign-skill, .figma-skill {
     width: 250px;
   }
-  .sql-skill {
+
+  .ruby-skill {
     width: 230px;
   }
-  .react-skill {
-    width: 210px;
-  }
+
   .vertical-text{
     height:20px;
     text-align: left;
@@ -93,28 +109,24 @@ ul {
   }
   .skills-list {
     padding: 10px;
-    margin-top: 20px;
+    // margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
   }
-  .html-skill, .css-skill, .indesign-skill, .photoshop-skill {
+  .html-skill, .css-skill, .indesign-skill {
     height: 290px;
   }
-  .bootstrap-skill, .jquery-skill {
+  .bootstrap-skill, .jquery-skill, .git-skill, , .photoshop-skill {
     height: 270px;
   }
-  .ruby-skill, .git-skill, .javascript-skill, .wordpress-skill {
+  .javascript-skill, .wordpress-skill, .webdesign-skill, .figma-skill {
     height: 250px;
   }
-
-  .sql-skill {
+  .ruby-skill {
     height: 230px;
   }
 
-  .react-skill {
-    height: 210px;
-  }
   .vertical-text{
     line-height: 1.2;
     width:20px;
