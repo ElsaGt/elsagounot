@@ -5,18 +5,32 @@ title: Elsa Gounot | Développeuse web
 <div class="about">
   <div class="container">
     <div class="row">
-      <% data.websites.each do |website| %>
-      <% image = website.img %>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'image' %>);">
+      <div class="col-xs-12 col-sm-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'instant-needles.png' %>);">
           <div class="card-description">
-            <h2><%= website.name %></h2>
-            <p><%= website.tags %></p>
+            <h2>Instant Needles</h2>
+<!--             <p>Wordpress, HTML, CSS, Rédaction web, Photoshop</p> -->
           </div>
-          <%= link_to "", "website.link", class: "card-link" %>
+          <%= link_to "", "https://instantneedles.wordpress.com/", class: "card-link" %>
         </div>
       </div>
-      <% end %>
+      <div class="col-xs-12 col-sm-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'comics-generator.png' %>);">
+          <div class="card-description">
+            <h2>The Comic Strip Generator</h2>
+<!--             <p>Javascript, jQuery, HTML, CSS, Ruby on rails, Heroku</p> -->
+          </div>
+          <%= link_to "", "https://comics-generator.herokuapp.com/", class: "card-link" %>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'blended-fish-img.png' %>);">
+          <div class="card-description">
+            <h2>Blend the Fish</h2>
+<!--             <p>Javascript, jQuery, HTML, CSS, Ruby on rails, Photoshop, Heroku</p> -->
+          </div>
+          <%= link_to "", "http://blended-fish.herokuapp.com/", class: "card-link" %>
+      </div>
     </div>
   </div>
 </div>
